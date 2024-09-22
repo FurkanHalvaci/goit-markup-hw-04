@@ -221,6 +221,8 @@ p {
 .ourteam-section-list-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2E2F4214 8%, 0px 1px 1px 0px  #2E2F4229 16%, 0px 1px 6px 0px #2E2F4214 8%;
+
 }
 .ourteam-person-name {
   padding: 32px 0;
