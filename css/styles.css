@@ -190,19 +190,20 @@ p {
   overflow: hidden;
 }
 .icons-feature{
-   width: 264px;
-   height: 112px;
-   background-color: #F4F4FD;
-   align-items: center;
-   position: relative;
+  
+    position: relative;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    background-color: #F4F4FD;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 .icon{
   width: 64px;
   height: 64px;
-  position: absolute;
-  top: 25%;
-  left: 40%;
-
 }
 
 .page-feature-list {
