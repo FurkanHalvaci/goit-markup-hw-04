@@ -189,19 +189,17 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.icons-feature{
-  
-    position: relative;
-    width: 264px;
-    height: 112px;
-    border: 1px solid #8e8f99;
-    background-color: #F4F4FD;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
+.icons-feature {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
-.icon{
+.icon {
   width: 64px;
   height: 64px;
 }
@@ -238,8 +236,8 @@ p {
 .ourteam-section-list-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 1px 0px #2E2F4214 8%, 0px 1px 1px 0px  #2E2F4229 16%, 0px 1px 6px 0px #2E2F4214 8%;
-
+  box-shadow: 0px 2px 1px 0px #2e2f4214 8%, 0px 1px 1px 0px #2e2f4229 16%,
+    0px 1px 6px 0px #2e2f4214 8%;
 }
 .ourteam-person-name {
   padding: 32px 0;
@@ -375,7 +373,3 @@ p {
   letter-spacing: 2%;
   max-width: 264px;
 }
-
-
-
-
