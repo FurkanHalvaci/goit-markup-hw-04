@@ -226,6 +226,11 @@ p {
   display: flex;
   gap: 24px;
 }
+.icon-social-media{
+  
+  height: 40px;
+}
+
 .ourteam-section {
   background-color: #f4f4fd;
 }
@@ -236,6 +241,11 @@ p {
     0px 1px 6px 0px #2e2f4214 8%;
 }
 .ourteam-person-name {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
   padding: 32px 0;
   background-color: #ffffff;
 }
