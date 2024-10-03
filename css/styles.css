@@ -87,13 +87,13 @@ p {
 }
 .navigation-logo-link :hover {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .navigation-logo-link :focus {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .page-navigation-list {
   list-style: none;
@@ -116,13 +116,13 @@ p {
 }
 .navigation-list-item-link:hover {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .navigation-list-item-link:focus {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .active::after {
   content: "";
@@ -139,8 +139,8 @@ p {
 }
 .active:hover::after {
   transform: scaleX(1); /* Hover sırasında çizgi görünür hale gelir */
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .adress-list-link {
@@ -163,13 +163,13 @@ p {
 }
 .adress-list-link:hover {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .adress-list-link:focus {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 /*Section One Styles */
 .page-effective-solution {
@@ -215,13 +215,13 @@ p {
 }
 .page-order-button:hover {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .page-order-button:focus {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 /*Section Two Styles */
@@ -327,13 +327,13 @@ p {
 }
 .social-icon:hover {
   fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .social-icon:focus {
   fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .social-icon-list {
   display: flex;
@@ -344,8 +344,8 @@ p {
 /*Section Four Styles */
 .ourportfolio-list-item:hover {
   box-shadow: 0px 1px 6px #2e2f4216;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .ourportfolio-list-item {
@@ -444,8 +444,8 @@ p {
 }
 .page-footer-link-span:hover {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .page-footer-link-span:focus {
   color: #404bbf;
@@ -460,13 +460,13 @@ p {
 }
 .footer-title:hover {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-title:focus {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .footer-text {
@@ -484,8 +484,8 @@ p {
 }
 .social-icon-footer:hover {
   fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-text {
   display: inline-block;
