@@ -36,6 +36,7 @@ ul {
   font-weight: 400;
   color: var(--slate);
   max-width: 1440px;
+  /* margin: 0 auto; */
 }
 .list-style {
   list-style-type: none;
