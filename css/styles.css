@@ -1,0 +1,313 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1158px;
+}
+.section {
+  padding: 120px 0px;
+}
+:root {
+  --navy: #2e2f42;
+  --iris: #4d5ae5;
+  --hover: #404bbf;
+  --slate: #434455;
+}
+.page-body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--slate);
+  max-width: 1440px;
+  
+}
+.list-style {
+  list-style-type: none;
+}
+
+/* Header CSS */
+
+.logo-span,
+.logo-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16em;
+  letter-spacing: 3%;
+  color: var(--iris);
+}
+.logo-link {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.navigation-list-link {
+  font-family: inherit;
+  text-decoration: none;
+  color: var(--navy);
+  font-weight: 500px;
+  letter-spacing: 2%;
+}
+.navigation-list-link:hover {
+  color: var(--hover);
+}
+.email-link,
+.tel-link {
+  font-family: inherit;
+  text-decoration: none;
+  font-style: normal;
+  color: var(--navy);
+  letter-spacing: 2%;
+}
+
+.email-link:hover,
+.tel-link:hover {
+  color: var(--hover);
+}
+header {
+  height: 72px;
+}
+/* 3. ödev header css */
+.header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 156px;
+  padding: 24px 0px;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+  margin-left: 76px;
+  align-items: center;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main CSS section-1 */
+.section-one {
+  background-color: var(--navy);
+  height: 600px;
+}
+.section-one-title {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 2%;
+}
+.section-one-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: white;
+  background-color: var(--iris);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+}
+.section-one-button:hover {
+  background-color: var(--hover);
+}
+/* 3. ödev css */
+.section-one-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 496px;
+  margin-top: 52px;
+  margin-bottom: 68px;
+  margin-left: 472px;
+  margin-right: 472px;
+}
+.section-one-button {
+  margin-top: 64px;
+}
+/* Main CSS section-two */
+.section-two-title {
+  color: var(--navy);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+
+.section-two-list-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+/* 3.ödev css */
+.section-two-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.section-two-div {
+  margin: 0px 156px;
+}
+/* Main CSS section-Three */
+.section-three {
+  background-color: #f4f4fd;
+}
+.section-three-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--navy);
+}
+.section-three-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: var(--navy);
+}
+.section-three-p {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 2%;
+}
+/* 3.ödev css */
+.section-three-list {
+  display: flex;
+  gap: 24px;
+  margin: 0px 156px;
+  align-items: center;
+}
+.section-three-title {
+  margin-bottom: 72px;
+  width: 162px;
+  margin-left: 639px;
+}
+.section-three-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.section-three-header {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.section-three-p {
+  margin-bottom: 32px;
+}
+
+/* Main CSS section four */
+
+.section-four-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--navy);
+}
+.section-four-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: var(--navy);
+}
+.section-four-p {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 2%;
+  margin-bottom: 32px;
+}
+/* 3. ödev css */
+
+.section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin: 0 156px;
+  align-items: center;
+  width: 1128px;
+  width: calc((100%-24px) / 3);
+}
+.section-four-title {
+  width: 218px;
+  margin-left: 611px;
+  margin-bottom: 72px;
+}
+.section-four-header {
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+/* Footer CSS */
+.page-footer {
+  background-color: var(--navy);
+  height: 312px;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f4f4fd;
+  letter-spacing: 3%;
+  line-height: 1.16;
+  text-decoration: none;
+}
+.footer-logo-span {
+  color: var(--iris);
+}
+.footer-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
+/* 3. ödev css */
+.footer-div {
+  width: 264px;
+  height: 112px;
+  margin-left: 156px;
+  padding-top: 100px;
+}
+.footer-p {
+  margin-top: 16px;
+}
