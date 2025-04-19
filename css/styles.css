@@ -42,7 +42,6 @@ ul {
   list-style-type: none;
 }
 
-
 /* Header CSS */
 
 .logo-span,
@@ -245,7 +244,6 @@ header {
   border-bottom-left-radius: 4px;
   width: 264px;
   height: 428px;
-  
 }
 /* .section-three-header {
   margin-top: 32px;
@@ -261,8 +259,6 @@ header {
   gap: 24px;
   width: 232px;
   height: 40px;
-  
-  
 }
 .social-media-icons {
   width: 40px;
@@ -272,12 +268,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.social-media-icons:hover{
-  background-color: #31D0AA;
+.social-media-icons:hover {
+  background-color: #31d0aa;
 }
-.our-team-card{
+.our-team-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,7 +282,6 @@ header {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 32px;
-  
 }
 /* Main CSS section four */
 
